@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="protobuf-mongodb-20230321">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Compile-Protocol-buffers-using-maven-master/src/main/generated" />
+      <root url="file://$PROJECT_DIR$/Compile-Protocol-buffers-using-maven-master/src/main/java" />
+      <root url="file://$PROJECT_DIR$/Compile-Protocol-buffers-using-maven-master/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

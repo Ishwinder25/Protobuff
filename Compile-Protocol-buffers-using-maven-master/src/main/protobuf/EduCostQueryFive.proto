@@ -1,0 +1,16 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "syntax.app.years.five";
+option java_outer_classname = "QueryFive";
+package years;
+message yearsRequest{
+  double Year = 1;
+  string Type = 2;
+  string Length = 3;
+}
+message yearsResponse{
+  string message=1;
+}
+service generatorservice{
+  rpc Query(yearsRequest) returns(yearsResponse);
+}
